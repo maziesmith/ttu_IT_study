@@ -1,0 +1,16 @@
+﻿.header {
+    position: relative;
+    height: 250px;
+    line-height: 250px;
+    width: calc(100% - 60px);
+    background: #222;
+    color: #FFF;
+    text-align: right;
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+.header__title {
+    color: inherit;
+    margin: 0;
+}

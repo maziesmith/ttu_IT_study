@@ -1,0 +1,14 @@
+# Project misc stuff
+bin
+obj
+.vs
+TestResults
+
+# Packages
+.nupkg
+
+#Ignore packages directory
+Packages/
+
+# Windows generated thumbnails
+Thumbs.db

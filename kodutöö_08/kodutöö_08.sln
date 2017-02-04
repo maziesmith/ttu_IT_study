@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kodutöö_08", "kodutöö_08\kodutöö_08.csproj", "{75E350D2-3DDA-4D06-8AA0-273311DF765D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlsAPI", "WpfAPI\WpfControlsAPI.csproj", "{50D1415E-1D25-4B35-977E-A9777A673157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75E350D2-3DDA-4D06-8AA0-273311DF765D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E350D2-3DDA-4D06-8AA0-273311DF765D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E350D2-3DDA-4D06-8AA0-273311DF765D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E350D2-3DDA-4D06-8AA0-273311DF765D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D1415E-1D25-4B35-977E-A9777A673157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D1415E-1D25-4B35-977E-A9777A673157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D1415E-1D25-4B35-977E-A9777A673157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D1415E-1D25-4B35-977E-A9777A673157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

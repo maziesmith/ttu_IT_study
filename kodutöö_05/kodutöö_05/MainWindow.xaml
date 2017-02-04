@@ -1,0 +1,16 @@
+﻿<Window x:Class="kodutöö_05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kodutöö_05"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="34" Margin="75,139,0,0" VerticalAlignment="Top" Width="382" Click="buttonClick"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="75,101,0,0" TextWrapping="Wrap" Text="Click on button to generate password" VerticalAlignment="Top" Height="22" Width="382"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Height="36" Margin="75,218,0,0" VerticalAlignment="Top" Width="382" Minimum="5" Maximum="30" ValueChanged="updateSize"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="75,197,0,0" TextWrapping="Wrap" Text="Move slider to set password length" VerticalAlignment="Top" Height="16" Width="206"/>
+
+    </Grid>
+</Window>
