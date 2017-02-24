@@ -12,3 +12,6 @@ Packages/
 
 # Windows generated thumbnails
 Thumbs.db
+
+# ZIP files
+.zip
